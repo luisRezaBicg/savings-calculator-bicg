@@ -5,12 +5,10 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/savings-calculator-bicg',
+  base: '/savings-calculator-bicg/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-  // Cambia esta base al nombre de tu repo cuando publiques en GitHub Pages.
-  // base: '/bicg-landing-ahorro/',
 })
