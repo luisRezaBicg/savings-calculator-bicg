@@ -12,7 +12,7 @@ import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } fro
 const eur = (n: number) => new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(isFinite(n) ? n : 0);
 const num = (n: number) => new Intl.NumberFormat("es-ES").format(isFinite(n) ? n : 0);
 
-export default function BICGCostSavingsLanding() {
+export default function App() {
   // Entradas principales (calculadora minimalista)
   const [m2, setM2] = useState<number>(1500);
   const [pax, setPax] = useState<number>(200);
