@@ -1,6 +1,6 @@
 {
-  "name": "bicg-landing-vite-ts",
-  "homepage": "https://luisRezaBicg.github.io/savings-calculator-bicg/",
+  "name": "savings-calculator-bicg",
+  "homepage": "https://luisRezaBicg.github.io/savings-calculator-bicg",
   "version": "1.0.0",
   "private": true,
   "type": "module",
